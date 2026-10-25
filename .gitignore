@@ -9,3 +9,6 @@ build/
 .vscode/
 *.xcuserstate
 DerivedData/
+*.local
+.vite/
+data/

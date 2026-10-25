@@ -1,0 +1,20 @@
+{
+  "name": "glaze",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "join": "node scripts/join-session.mjs",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "webgazer": "^3.5.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}
